@@ -16,7 +16,12 @@ env/
 uploads/
 *.pdf
 *.txt
-*.md
+
+# Keep README
+!README.md
+
+# Keep screenshots
+!Screenshot*.png
 
 # IDE
 .vscode/
